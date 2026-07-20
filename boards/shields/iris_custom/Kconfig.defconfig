@@ -1,0 +1,16 @@
+if SHIELD_IRIS_CUSTOM_LEFT || SHIELD_IRIS_CUSTOM_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
+
+if SHIELD_IRIS_CUSTOM_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Iris Custom" // You can still keep the Bluetooth display name as "Iris"!
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif

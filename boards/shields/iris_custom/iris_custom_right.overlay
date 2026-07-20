@@ -4,8 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "iris.dtsi"
-
+#include "iris_custom.dtsi"
 &default_transform {
     col-offset = <6>; // Shifts the right side columns over by 6
 };

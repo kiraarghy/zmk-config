@@ -20,6 +20,6 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: iris_left
+    shield: iris_custom_left
   - board: nice_nano_v2
-    shield: iris_right
+    shield: iris_custom_right
