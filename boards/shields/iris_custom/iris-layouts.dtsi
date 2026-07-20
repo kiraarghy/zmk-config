@@ -34,20 +34,20 @@
         diode-direction = "col2row";
 
         row-gpios
-            = <&pro_micro 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // F4  (Row 0)
-            , <&pro_micro 18 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // F5  (Row 1)
-            , <&pro_micro 19 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // F6  (Row 2)
-            , <&pro_micro 20 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // F7  (Row 3)
-            , <&pro_micro 21 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // B1  (Row 4)
+            = <&gpio0 17 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // Pro Micro 15 (P0.17)
+            , <&gpio0 31 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // Pro Micro 18 (P0.31)
+            , <&gpio0 29 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // Pro Micro 19 (P0.29)
+            , <&gpio0  2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // Pro Micro 20 (P0.02)
+            , <&gpio1 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // Pro Micro 21 (P1.15)
             ;
 
         col-gpios
-            = <&pro_micro  7 GPIO_ACTIVE_LOW> // E6  (Col 0 - Leftmost column)
-            , <&pro_micro  8 GPIO_ACTIVE_LOW> // B4  (Col 1)
-            , <&pro_micro  9 GPIO_ACTIVE_LOW> // B5  (Col 2)
-            , <&pro_micro 10 GPIO_ACTIVE_LOW> // B3  (Col 3)
-            , <&pro_micro 16 GPIO_ACTIVE_LOW> // B2  (Col 4)
-            , <&pro_micro 14 GPIO_ACTIVE_LOW> // B6  (Col 5 - Inner column)
+            = <&gpio0 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // Pro Micro 7 = P0.11
+            , <&gpio1  0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // Pro Micro 8 = P1.00
+            , <&gpio0 24 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // Pro Micro 9 = P0.24
+            , <&gpio0  4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // Pro Micro 14 = P0.09
+            , <&gpio0 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // Pro Micro 16 = P0.10
+            , <&gpio1  9 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // Pro Micro 10 = P1.04
             ;
     };
-};z
+};
