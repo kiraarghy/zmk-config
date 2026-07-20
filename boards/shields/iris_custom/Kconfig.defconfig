@@ -1,3 +1,7 @@
+Code snippet
+# Copyright (c) 2026 Your Name
+# SPDX-License-Identifier: MIT
+
 if SHIELD_IRIS_CUSTOM_LEFT || SHIELD_IRIS_CUSTOM_RIGHT
 
 config ZMK_SPLIT
@@ -8,7 +12,7 @@ endif
 if SHIELD_IRIS_CUSTOM_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Iris Custom" // You can still keep the Bluetooth display name as "Iris"!
+    default "Iris Custom"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
