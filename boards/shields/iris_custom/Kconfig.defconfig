@@ -8,6 +8,9 @@ config ZMK_SPLIT
 
 endif
 
+# Required for nice!nano to use P0.09 and P0.10 as raw GPIO columns instead of NFC
+CONFIG_NFCT_PINS_AS_GPIOS=y
+
 if SHIELD_IRIS_CUSTOM_LEFT
 
 config ZMK_KEYBOARD_NAME
