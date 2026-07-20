@@ -12,9 +12,9 @@
 
 &kscan0 {
     col-gpios
-        = <&pro_micro 10 GPIO_ACTIVE_HIGH> // B6 (Col 6 - Inner)
+        = <&pro_micro 14 GPIO_ACTIVE_HIGH> // B6 (Col 6 - Inner)
         , <&pro_micro 16 GPIO_ACTIVE_HIGH> // B2 (Col 7)
-        , <&pro_micro 14 GPIO_ACTIVE_HIGH> // B3 (Col 8)
+        , <&pro_micro 10 GPIO_ACTIVE_HIGH> // B3 (Col 8)
         , <&pro_micro  9 GPIO_ACTIVE_HIGH> // B5 (Col 9)
         , <&pro_micro  8 GPIO_ACTIVE_HIGH> // B4 (Col 10)
         , <&pro_micro  7 GPIO_ACTIVE_HIGH> // E6 (Col 11 - Rightmost)

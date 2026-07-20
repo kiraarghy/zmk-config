@@ -11,8 +11,8 @@
         = <&pro_micro  7 GPIO_ACTIVE_HIGH> // E6 (Col 0 - Leftmost)
         , <&pro_micro  8 GPIO_ACTIVE_HIGH> // B4 (Col 1)
         , <&pro_micro  9 GPIO_ACTIVE_HIGH> // B5 (Col 2)
-        , <&pro_micro 14 GPIO_ACTIVE_HIGH> // B3 (Col 3)
+        , <&pro_micro 10 GPIO_ACTIVE_HIGH> // B3 (Col 3)
         , <&pro_micro 16 GPIO_ACTIVE_HIGH> // B2 (Col 4)
-        , <&pro_micro 10 GPIO_ACTIVE_HIGH> // B6 (Col 5 - Inner)
+        , <&pro_micro 14 GPIO_ACTIVE_HIGH> // B6 (Col 5 - Inner)
         ;
 };
